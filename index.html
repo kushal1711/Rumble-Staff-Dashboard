@@ -36,7 +36,7 @@
   <nav id="sidebar" class="active">
     <h1><a href="#" class="logo"></a></h1>
     <ul class="list-unstyled components mb-5">
-      <li class="active">
+      <li>
         <a href="index.html"
           ><img
             src="./images/icon/green.svg"
@@ -45,7 +45,7 @@
             height="50px"
         /></a>
       </li>
-      <li>
+      <li class="active">
         <a href="index.html" class="position-relative">
           <img
             src="./images/icon/file.svg"
@@ -111,7 +111,7 @@
            
               <ul class="nav nav-tabs font-size-18 d-flex justify-content-between" id="myTab" role="tablist">
                  <li class="nav-item" role="presentation">
-                    <a class="nav-link  font-weight-bold" id="pending-tab" data-toggle="tab" href="#pending" role="tab" aria-controls="pending" onclick="show('id1');" aria-selected="true">Pending <span class="font">(5)</span></a>
+                    <a class="nav-link active font-weight-bold" id="pending-tab" data-toggle="tab" href="#pending" role="tab" aria-controls="pending" onclick="show('id1');" aria-selected="true">Pending <span class="font">(5)</span></a>
                  </li>
                  <li class="nav-item" role="presentation">
                     <a class="nav-link font-weight-bold" id="inProgress-tab" data-toggle="tab" href="#inProgress" role="tab" aria-controls="inProgress"  onclick="show('id2');"aria-selected="false">In Progress  <span class="">(2)</span></a>
@@ -120,14 +120,14 @@
                     <a class="nav-link font-weight-bold" id="complete-tab" data-toggle="tab" href="#complete" role="tab" aria-controls="complete"  onclick="show('id3');"aria-selected="false">Complete</a>
                  </li>
                  <li class="nav-item" role="presentation">
-                    <a class="nav-link active font-weight-bold" id="cancelled-tab" data-toggle="tab" href="#cancelled" role="tab" aria-controls="cancelled" onclick="show('id4');" aria-selected="false" >Cancelled</a>
+                    <a class="nav-link font-weight-bold" id="cancelled-tab" data-toggle="tab" href="#cancelled" role="tab" aria-controls="cancelled" onclick="show('id4');" aria-selected="false" >Cancelled</a>
                  </li>
               </ul>
             </div>
          
           <div class="order-status">
               <div class="tab-content" id="myTabContent">
-                 <div class="tab-pane fade  " id="pending" role="tabpanel" aria-labelledby="pending-tab">
+                 <div class="tab-pane fade show active" id="pending" role="tabpanel" aria-labelledby="pending-tab">
                     <div class="container-fluid">
                        <div class="row">
                           <div class="col-md-12 oder-view">
@@ -337,7 +337,7 @@
                        </div>
                     </div>
                  </div>
-                 <div class="tab-pane fade show active " id="cancelled" role="tabpanel" aria-labelledby="cancelled-tab">
+                 <div class="tab-pane fade" id="cancelled" role="tabpanel" aria-labelledby="cancelled-tab">
                     <div class="container-fluid">
                        <div class="row">
                           <div class="col-md-12 oder-view">
@@ -814,12 +814,7 @@
          <div class="font-size-18">Today at 9:40PM</div>
          <div class="font-size-18">Reference ID 759393</div>
          </di>
-         <div class="text-center mt-2">
-            <button class="btn btn-primary cus-btn" data-toggle="modal" data-target="#input_amount_modal">
-               <sapn  class="d-block"><i class="product-item">1</i> ITEM(S) READY</sapn>
-               <small class="d-block">SERVER CODE REQUIRED</small>
-            </button>
-         </div>
+        
       </div>
    </div>
      </div>
@@ -1138,6 +1133,7 @@
       document.getElementById(elementId).style.display = "block";
   }
 </script>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>

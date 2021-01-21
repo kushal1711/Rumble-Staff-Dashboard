@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="41px" height="45px" viewBox="0 0 41 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>B46FCFB7-7A2F-403D-A06C-6BFF68F8D442</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.498325893" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Order-Page" transform="translate(-51.000000, -389.000000)" stroke="#FFFFFF" stroke-width="5">
-            <g id="user" transform="translate(54.000000, 392.000000)">
-                <path d="M35,39.4739322 L35,35.0879397 C35,30.2433062 31.0824916,26.3159548 26.25,26.3159548 L8.75,26.3159548 C3.91750844,26.3159548 0,30.2433062 0,35.0879397 L0,39.4739322" id="Path"></path>
-                <ellipse id="Oval" cx="17.5" cy="8.77198492" rx="8.75" ry="8.77198492"></ellipse>
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="45" viewBox="0 0 41 45">
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g stroke="#FFF" stroke-width="5">
+            <g transform="translate(-51 -389) translate(54 392)">
+                <path d="M35 39.474v-4.386c0-4.845-3.918-8.772-8.75-8.772H8.75c-4.832 0-8.75 3.927-8.75 8.772v4.386"/>
+                <ellipse cx="17.5" cy="8.772" rx="8.75" ry="8.772"/>
             </g>
         </g>
     </g>
