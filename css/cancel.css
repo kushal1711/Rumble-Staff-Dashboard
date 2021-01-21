@@ -5,6 +5,12 @@
 .font-color-red {
  color: #ef5656 !important;
 }
+.font-color-blue {
+ color: #266cf2;
+}
+.font-color-green {
+ color: #26f27d;
+}
 .img-box {
  position: relative;
 }
