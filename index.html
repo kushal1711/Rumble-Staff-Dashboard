@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Order Page</title>
+    <meta charset="utf-8">
+    <!-- Font -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--  -->
+    <!-- fontawesome -->
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  />
+    <!--  -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--  -->
+    <!-- external css -->
+    <link rel="stylesheet" href="css/external.css">
+    <!--  -->
+    <!-- Reaponcive css  -->
+    <link rel="stylesheet" href="css/responcive.css">
+    <!--  -->
+  </head>
+  <body>
+<div class="wrapper d-flex align-items-stretch">
+  <nav id="sidebar" class="active">
+    <h1><a href="#" class="logo"></a></h1>
+    <ul class="list-unstyled components mb-5">
+      <li class="active">
+        <a href="index.html"
+          ><img
+            src="./images/icon/green.svg"
+            alt=""
+            width="50px"
+            height="50px"
+        /></a>
+      </li>
+      <li>
+        <a href="index.html" class="position-relative">
+          <img
+            src="./images/icon/file.svg"
+            alt=""
+            width="31px"
+            height="39px"
+          />
+          <img class="upside-img" src="./images/icon/dot.svg" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="oder-list.html">
+          <img
+            src="./images/icon/block.svg"
+            alt=""
+            width="31px"
+            height="39px"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="team.html">
+          <img
+            src="./images/icon/user.svg"
+            alt=""
+            width="31px"
+            height="39px"
+          />
+        </a>
+      </li>
+    </ul>
+    <div class="log-off-button">
+      <a href="#"
+        ><img
+          src="./images/icon/logout.svg"
+          alt=""
+          width="31px"
+          height="39px"
+      /></a>
+    </div>
+  </nav>
+
+<!-- Page Content  -->
+<div id="content" class="">
+  <div class="container-fluid">
+     <div class="row row-responcive" style="background: #22222e;">
+        <div class="col-lg-6 col-md-12 col-sm-12 Rectangle">
+           <div class="sticky">
+              <span class="order-time">9:14 PM</span>
+              <div class="btn-group float-right">
+                 <button class="btn btn-secondary btn-sm dropdown-toggle font-size-18 header-dropdown " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Inside Bar
+                 </button>
+                 <div class="dropdown-menu dropdown-cus">
+                    <button class="dropdown-item font-width-600 dropdown-item-border" type="button">Action</button>
+                    <button class="dropdown-item font-width-600 dropdown-item-border" type="button">Another action</button>
+                    <button class="dropdown-item font-width-600" type="button">Something else here</button>
+                 </div>
+              </div>
+           
+           <div class="date-time font-size-18 font-width-600">Saturday, November 7</div>
+           <div class="order-title font-weight-bold">Olive Bar & Kitchen | Bandra(W)</div>
+           
+              <ul class="nav nav-tabs font-size-18 d-flex justify-content-between" id="myTab" role="tablist">
+                 <li class="nav-item" role="presentation">
+                    <a class="nav-link active font-weight-bold" id="pending-tab" data-toggle="tab" href="#pending" role="tab" aria-controls="pending" aria-selected="true">Pending <span class="font">(5)</span></a>
+                 </li>
+                 <li class="nav-item" role="presentation">
+                    <a class="nav-link font-weight-bold" id="inProgress-tab" data-toggle="tab" href="#inProgress" role="tab" aria-controls="inProgress" aria-selected="false">In Progress  <span class="">(2)</span></a>
+                 </li>
+                 <li class="nav-item" role="presentation">
+                    <a class="nav-link font-weight-bold" id="complete-tab" data-toggle="tab" href="#complete" role="tab" aria-controls="complete" aria-selected="false">Complete</a>
+                 </li>
+                 <li class="nav-item" role="presentation">
+                    <a class="nav-link font-weight-bold" id="cancelled-tab" data-toggle="tab" href="#cancelled" role="tab" aria-controls="cancelled" aria-selected="false">Cancelled</a>
+                 </li>
+              </ul>
+            </div>
+         
+          <div class="order-status">
+              <div class="tab-content" id="myTabContent">
+                 <div class="tab-pane fade show active" id="pending" role="tabpanel" aria-labelledby="pending-tab">
+                    <div class="container-fluid">
+                       <div class="row">
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-1">&nbsp #4859</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Hapusa (60ml) x1, Swami tonic -</span>
+                                   <span class="order-name">Cucumber x1, Kingfisher Ultra (1 p...</span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold reaming-time">8 min ago</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Unassigned</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-1">&nbsp #5985</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Kingfisher Ultra (1 Pint)x2</span>
+                                   <span class="order-name"></span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">2 min ago</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Unassigned</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-2">&nbsp #5475</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Barbeque Chicken Pizza (1 Plate)x1</span>
+                                   <span class="order-name"></span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">4 min ago</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Unassigned</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-3">&nbsp #8974</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Stranger & Sons (30mL) x1, Swami</span>
+                                   <span class="order-name">Tonic - Cucumber x1, Sula (1 Glass)x1</span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">1 min ago</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Unassigned</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-4">&nbsp #5967</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Grey Goose (30mL)x1, Kinley Soda(1</span>
+                                   <span class="order-name">Bottle) x1</span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">Now</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Unassigned</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="tab-pane fade" id="inProgress" role="tabpanel" aria-labelledby="inProgress-tab">
+                    <div class="container-fluid">
+                       <div class="row">
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-3">&nbsp #8974</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Stranger & Sons (30mL) x1, Swami</span>
+                                   <span class="order-name">Tonic - Cucumber x1, Sula (1 Glass)x1</span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">1 min ago</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Mohit Odhrani</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-4">&nbsp #5967</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Grey Goose (30mL)x1, Kinley Soda(1</span>
+                                   <span class="order-name">Bottle) x1</span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">Now</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Mohit Odhrani</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="tab-pane fade" id="complete" role="tabpanel" aria-labelledby="complete-tab">
+                    <div class="container-fluid">
+                       <div class="row">
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-3">&nbsp #8974</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Stranger & Sons (30mL) x1, Swami</span>
+                                   <span class="order-name">Tonic - Cucumber x1, Sula (1 Glass)x1</span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">1 min ago</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Mohit Odhrani</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="tab-pane fade" id="cancelled" role="tabpanel" aria-labelledby="cancelled-tab">
+                    <div class="container-fluid">
+                       <div class="row">
+                          <div class="col-md-12 oder-view">
+                             <div class="col-md-12">
+                                <div class="font-size-36 font-weight-bold">
+                                   <span class="order-status-name ">Order</span>
+                                   <span class="order-number-3">&nbsp #8974</span>
+                                </div>
+                             </div>
+                             <div class="font-size-18 d-flex">
+                                <div class="col-md-8"> 
+                                   <span class="order-name">Stranger & Sons (30mL) x1, Swami</span>
+                                   <span class="order-name">Tonic - Cucumber x1, Sula (1 Glass)x1</span>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="">
+                                      <i class="far fa-clock"></i>
+                                      <span class="font-weight-bold">1 min ago</span>
+                                   </div>
+                                   <div>
+                                      <i class="far fa-user"></i> 
+                                      <span class="task">Mohit Odhrani</span>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 right-menu">
+           <div class="col-md-12 order-section">
+              <div class="font-size-36 ">
+                 <span class="order-status-name font-weight-bold font-color-white">Order</span>
+                 <span class="order-number-1 font-weight-bold">&nbsp #4859</span>
+                 <span class="float-right font-size-24 font-color-white">Pending...</span>
+              </div>
+              <div class="font-size-18 font-color-white"><span>Order Placed: <span>1 min ago</span></span></div>
+              <div class="font-size-18 font-color-white"><span>Customer: <span>Mohit O.</span></span></div>
+              <div class="mt-3">
+                 <span class="font-size-18 font-color-white">2 item Ordered</span>
+                 <div class="dropdown float-right">
+                    <button class="btn btn-secondary dropdown-toggle cus-dropdwon" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Options
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                       <button class="dropdown-item dropdown-item-border font-width-600" type="button" data-toggle="modal" data-target="#ordercancel">Order/item Cancellation</button>
+                       <button class="dropdown-item font-width-600" type="button" data-toggle="modal" data-target="#ordercancelpop2">View Cancellations</button>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-12 d-flex border-bottom-cus mt-3 align-items-start">
+                 <div class="img-box">
+                    <img class="order-img" src="./images/order-img-1.png" alt="" width="100px" height="100px">
+                    <div class="img-checkbox">
+                       <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                       <label for="styled-checkbox-1"></label>
+                    </div>
+                 </div>
+                 <div class="col-md-10  order-box">
+                    <ul>
+                       <li class="font-size-24 font-weight-bold font-color-white">Stranger & Sons</li>
+                       <li class="font-size-18 serving-color">Serving: <span class="font-color-white">30ml</span></li>
+                       <li class="serving-color font-size-18">Add On: <span class="font-color-white font-size-15">Swami Tonic -Cucumber</span></li>
+                    </ul>
+                    <ul class="float-right">
+                       <li class="float-right font-size-24 font-color-white"><i class="fas fa-rupee-sign"></i> 950</li>
+                       <li class="order-mul">x1</li>
+                    </ul>
+                 </div>
+              </div>
+              <div class="col-md-12 d-flex mt-3 align-items-start">
+                 <div class="img-box">
+                    <img class="order-img" src="./images/order-img-2.png" alt="" width="100px" height="100px">
+                    <div class="img-checkbox">
+                       <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value2">
+                       <label for="styled-checkbox-2"></label>
+                    </div>
+                 </div>
+                 <div class="col-md-10  order-box">
+                    <ul>
+                       <li class="font-size-24 font-weight-bold font-color-white">Sula</li>
+                       <li class="font-size-18 serving-color">Serving: <span class="font-color-white">30ml</span></li>
+                    </ul>
+                    <ul class="float-right">
+                       <li class="float-right font-size-24 font-color-white"><i class="fas fa-rupee-sign"></i> 450</li>
+                       <li class="order-mul">x1</li>
+                    </ul>
+                 </div>
+              </div>
+              <div class="font-size-24 cus-color font-weight-bold">Customer Instructions</div>
+              <div class="font-size-18 font-color-white">Please serve the tonic on the side, 3 cubes of ice.</div>
+           </div>
+           <div class="col-md-12 bill-section">
+              <span class="font-size-24 font-weight-bold">Bill Details</span>
+              <div class="bill-box font-size-18 font-color-white">
+                 <div>
+                    <span>Item Total</span>
+                    <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp1400.00</span>
+                 </div>
+                 <div class="bill-border-style">
+                    <span>Discounts</span>
+                    <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp0.00</span>
+                 </div>
+                 <div class="mt-2">
+                    <span>Subtotal</span>
+                    <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp1400.00</span>
+                 </div>
+                 <div class="bill-border-style pb-2">
+                    <span>Taxes & Charges</span>
+                    <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp10.00</span>
+                 </div>
+                 <div class="mt-2">
+                    <span>Total Paid</span>
+                    <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp1410.00</span>
+                 </div>
+              </div>
+              <div class="font-size-24 font-width-600 pt-3">Payment made via <img src="./images/icon/visa.svg" alt=""> ****1234</div>
+              <div class="font-size-18">Today at 9:40PM</div>
+              <div class="font-size-18">Reference ID 759393</div>
+              </di>
+              <div class="text-center mt-2">
+                 <button class="btn btn-primary cus-btn" data-toggle="modal" data-target="#input_amount_modal">
+                    <sapn  class="d-block"><i class="product-item">1</i> ITEM(S) READY</sapn>
+                    <small class="d-block">SERVER CODE REQUIRED</small>
+                 </button>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+
+ 
+  </div>
+  <div class="modal fade input-subtotal" id="input_amount_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-card">
+        <div class="headre-modal">
+            <div class="subtotal-request">
+              <h5>SERVER CODE</h5>
+              <p>Please input your server code, to complete the request.</p>
+             </div>
+                   <div class="clearfix"></div>
+          </div>
+        <div class="modal-body">
+          <input type="hidden" name="input_request_id" id="input_request_id">
+          <input type="hidden" name="input_request_discount" id="input_request_discount">
+          <input type="hidden" name="input_request_min_value" id="input_request_min_value">
+        <div class="input-cal-box d-flex">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+        </div>
+          <div class="caculator">
+            <div class="btn-group-vertical d-block" role="group" aria-label="Basic example">
+                  <ul class="d-flex">
+                      <li><input onclick="addNumber(this.value)" type="button" value="7" class="btn btn-outline-secondary py-3"></li>
+                      <li class="gery"><input onclick="addNumber(this.value)" type="button" value="8" class="btn btn-outline-secondary py-3"></li>
+                      <li><input onclick="addNumber(this.value)" type="button" value="9" class="btn btn-outline-secondary py-3"></li>
+                      <li class="gery"><input onclick="addNumber(this.value)" type="button" class="btn btn-outline-secondary py-3" value="4"></li>
+                      <li><input onclick="addNumber(this.value)" type="button" value="5" class="btn btn-outline-secondary py-3"></li>
+                      <li class="gery"><input onclick="addNumber(this.value)" type="button" value="6" class="btn btn-outline-secondary py-3"></li>
+                      <li><input onclick="addNumber(this.value)" type="button" value="1" class="btn btn-outline-secondary py-3"></li>
+                      <li class="gery"><input onclick="addNumber(this.value)" type="button" value="2" class="btn btn-outline-secondary py-3"></li>
+                      <li><input onclick="addNumber(this.value)" type="button" value="3" class="btn btn-outline-secondary py-3"></li>
+                      <li class="gery"><input onclick="addNumber(this.value)" type="button" value="." class="btn btn-outline-secondary py-3"></li>
+                      <li><input onclick="addNumber(this.value)" type="button" value="0" class="btn btn-outline-secondary py-3"></li>
+                      <li class="accept gery"><button type="button" onclick="deleteAmount()" class="btn btn-outline-secondary py-3" ><img src="./images/icon/delete.png" ></button></li>
+                      <!-- <li class="accept"><input type="button" value="ACCEPT" onclick="showReviewModal()"></li> -->
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+         <div class="modal-footer">
+          <button type="button" class="btn btn-primary cus-btn" onclick="showReviewModal()"><span>SUBMIT</span><small>BACK TO ORDER PANEL</small></button>
+          <!-- <button type="button" class="btn custom-btn btn-secondary" data-dismiss="modal">Cancel</button> -->
+        </div>
+        </div>
+        
+      </div>
+    </div> 
+
+
+
+<!-- modal 2  -->
+<div class="modal fade input-subtotal" id="ordercancel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog cus-modal" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+			<div class="modal-card p-4">
+				<div class="headre-modal">
+          <div class="font-size-36 font-weight-bold">
+            <span class="order-status-name font-color-white">Order</span>
+            <span class="order-number-3">&nbsp; #8974</span>
+          </div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="modal-body">
+          <div class="font-size-36 font-width-600 font-color-white">
+            OREDER/ITEM CANCELLATION
+          </div>
+          <div>
+            <span class="font-size-15 pop-up-text-color"
+              >Plaese select an individual item to cancel. Note the Cancellation
+              details to share with the manager, to process refunds.</span
+            >
+          </div>
+          <div class="font-size-15 font-width-600 font-color-white pt-3">
+            Main
+          </div>
+          <div class="row">
+            <div class="pl-2">
+              <input
+                class="styled-checkbox checkbox-cancle"
+                id="styled-checkbox-3"
+                type="checkbox"
+                value="value1"
+              />
+              <label for="styled-checkbox-3"></label>
+            </div>
+            <div class="col-md-10 cancel-order">
+              <ul>
+                <li class="font-size-18 font-weight-bold font-color-white">
+                  Stranger &amp; Sons
+                </li>
+                <li class="font-size-18 serving-color">
+                  Serving: <span class="font-color-white">30ml</span>
+                </li>
+              </ul>
+              <ul>
+                <li class="font-size-18 font-color-white">
+                  <i class="fas fa-rupee-sign"></i> 950
+                </li>
+                <li>Quantity: 1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cancle-color font-size-15 font-width-600 font-color-white pt-3">
+            Add On
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="">
+              <div class="">
+                <input
+                  class="styled-checkbox checkbox-cancle"
+                  id="styled-checkbox-4"
+                  type="checkbox"
+                  value="value1"
+                />
+                <label for="styled-checkbox-4"></label>
+              </div>
+            </div>
+            <div class="col-md-8 cancel-order">
+              <ul>
+                <li class="font-size-18 font-weight-bold font-color-white">
+                  Svami Tonic - Cucumber
+                </li>
+                <!-- <li class="font-size-18 serving-color">Serving: <span class="font-color-white">30ml</span></li> -->
+              </ul>
+              <ul>
+                <li class="font-size-18 font-color-white">
+                  <i class="fas fa-rupee-sign"></i> 45
+                </li>
+                <li>Quantity: 1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="border-bottom-cus"></div>
+          <div class="font-size-15 font-width-600 font-color-white pt-3">
+            Main
+          </div>
+          <div class="row">
+            <div class="pl-2">
+              <input
+                class="styled-checkbox checkbox-cancle"
+                id="styled-checkbox-5"
+                type="checkbox"
+                value="value1"
+              />
+              <label for="styled-checkbox-5"></label>
+            </div>
+            <div class="col-md-10 cancel-order">
+              <ul>
+                <li class="font-size-18 font-weight-bold font-color-white">
+                  Sula
+                </li>
+                <li class="font-size-18 serving-color">
+                  Serving: <span class="font-color-white">1 Glass</span>
+                </li>
+              </ul>
+              <ul>
+                <li class="font-size-18 font-color-white">
+                  <i class="fas fa-rupee-sign"></i> 450
+                </li>
+                <li>Quantity: 1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pt-5">
+            <span class="cus-color font-size-15"
+              >Prices mentioned are Exclusive Of Taxes $ Charges</span
+            >
+          </div>
+			</div>
+			
+    </div>
+    <div class="modal-footer">
+
+      <button type="button" class="btn btn-primary cancle-button" style="width: 100%;">
+        <span class="button-cancel-set ">
+        <span>
+          CANCEL 0 ITEM(S)
+        </span>
+        <span class="d-flex">
+          <i class="fas fa-rupee-sign"></i><span>0.00</span>
+        </span>
+      </span>
+      <span class="button-cancel-set">
+        <span class="refund-customer">REFUND AMOUNT TO CUSTOMER</span>
+        <span class="refund-customer">Inclusive of Tax</span>
+      </span>
+      </button>
+
+    </div>
+	</div>
+</div>
+</div>
+
+
+<!-- modal 3  -->
+<div class="modal fade input-subtotal" id="ordercancelpop2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog cus-modal" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+			<div class="modal-card p-4">
+				<div class="headre-modal">
+
+					<div class="clearfix"></div>
+				</div>
+				<div class="modal-body">
+          <div class="font-size-24 font-width-600 font-color-white">
+            OREDER/ITEM CANCELLATION - <span style="color: #65db54;">SUCCESS</span>
+          </div>
+          <div class="font-size-15 font-width-600 font-color-white pt-3">
+            Main
+          </div>
+          <div class="row">
+            <div class="col-md-12 cancel-order">
+              <ul>
+                <li class="font-size-18 font-weight-bold font-color-white">
+                  Stranger &amp; Sons
+                </li>
+                <li class="font-size-18 serving-color">
+                  Serving: <span class="font-color-white">30ml</span>
+                </li>
+              </ul>
+              <ul>
+                <li class="font-size-18 font-color-white float-right">
+                  <i class="fas fa-rupee-sign"></i> 950
+                </li>
+                <li>Quantity: 1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cancle-color font-size-15 font-width-600 font-color-white">
+            Add On
+          </div>
+          <div class="row">
+            <div class="col-md-12 cancel-order">
+              <ul>
+                <li class="font-size-18 font-weight-bold font-color-white">
+                  Svami Tonic - Cucumber
+                </li>
+              </ul>
+              <ul>
+                <li class="font-size-18 font-color-white float-right">
+                  <i class="fas fa-rupee-sign"></i> 45
+                </li>
+                <li>Quantity: 1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <span class="font-size-24 font-weight-bold bill-pop-up-color">Bill Details</span>
+            <div class="bill-box font-size-18 font-color-white">
+              <div>
+                <span>Item Total</span>
+                <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp;1400.00</span>
+              </div>
+              <div class="bill-border-style">
+                <span>Discounts</span>
+                <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp;0.00</span>
+              </div>
+              <div class="mt-2">
+                <span>Subtotal</span>
+                <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp;1400.00</span>
+              </div>
+              <div class="bill-border-style pb-2">
+                <span>Taxes &amp; Charges</span>
+                <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp;10.00</span>
+              </div>
+              <div class="mt-2">
+                <span>Total Paid</span>
+                <span class="float-right"><i class="fas fa-rupee-sign"></i>&nbsp;1410.00</span>
+              </div>
+            </div>
+          <div class="font-size-24 font-width-600 font-color-white float-right pt-3">Refund By Card Via<img src="./images/icon/visa.svg" alt=""> ****1234</div>
+          <div class="font-size-12 float-right">Please Inform Management to Process the refund via Admin Dashboard</div>
+          <div class="font-size-18 font-width-600 font-color-white float-right">Status: Refund Pending</div>
+        </div>
+      </div>
+			</div>
+			
+    </div>
+    <div class="modal-footer button-center">
+      <button type="button" class="btn btn-primary" onclick="showReviewModal()" style="width: 60%;">
+        <sapn class="d-block font-size-18 font-width-600">Done</sapn>
+            <small class="d-block font-size-12">BACK TO ORDER PANEL</small>
+          </button>
+      </button>
+    </div>
+    </div>
+	</div>
+</div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

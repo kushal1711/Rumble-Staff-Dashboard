@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Order Page</title>
+    <meta charset="utf-8" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <!--  -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  -->
+    <!-- external css -->
+    <link rel="stylesheet" href="css/external.css" />
+    <!-- Inventory page css  -->
+    <link rel="stylesheet" href="css/Inventory.css" />
+    <!--  -->
+    <!-- Reaponcive css  -->
+    <link rel="stylesheet" href="css/responcive.css" />
+    <!--  -->
+    <style>
+      .col-md-6.d-flex {
+        padding: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="active">
+        <h1><a href="#" class="logo"></a></h1>
+        <ul class="list-unstyled components mb-5">
+          <li class="">
+            <a href="index.html"
+              ><img
+                src="./images/icon/green.svg"
+                alt=""
+                width="50px"
+                height="50px"
+            /></a>
+          </li>
+          <li>
+            <a href="index.html" class="position-relative">
+              <img
+                src="./images/icon/file.svg"
+                alt=""
+                width="31px"
+                height="39px"
+              />
+              <img class="upside-img" src="./images/icon/dot.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="oder-list.html">
+              <img
+                src="./images/icon/block.svg"
+                alt=""
+                width="31px"
+                height="39px"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="team.html">
+              <img
+                src="./images/icon/user.svg"
+                alt=""
+                width="31px"
+                height="39px"
+              />
+            </a>
+          </li>
+        </ul>
+        <div class="log-off-button">
+          <a href="#"
+            ><img
+              src="./images/icon/logout.svg"
+              alt=""
+              width="31px"
+              height="39px"
+          /></a>
+        </div>
+      </nav>
+      <!-- Page Content  -->
+      <div id="content" class="">
+        <div class="container-fluid">
+          <div class="row row-responcive" style="background: #22222e">
+            <div class="col-md-12 Rectangle" style="padding: 40px !important">
+              <div><span class="order-time">9:14 PM</span></div>
+              <div class="date-time font-size-18">Saturday, November 7</div>
+              <div class="order-title font-weight-bold">
+                Olive Bar & Kitchen | Bandra(W)
+              </div>
+              <div class="form-group has-search">
+                <img
+                  src="./images/search-icon.png"
+                  alt=""
+                  class="form-control-feedback"
+                  width="50px"
+                  height="50px"
+                />
+                <input
+                  type="text"
+                  class="form-control custome-search-box"
+                  placeholder="Search for an item..."
+                />
+                <div class="search-btn-place">
+                  <button
+                    class="btn btn-success search-btn font-width-600"
+                    type="submit"
+                  >
+                    SEARCH
+                  </button>
+                </div>
+              </div>
+              <div class="btn-group">
+                <div class="filter-name">Filter By:</div>
+                <button
+                  class="btn btn-secondary btn-sm dropdown-toggle font-size-18 header-dropdown"
+                  type="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  All
+                </button>
+                <div class="dropdown-menu dropdown-cus">
+                  <button
+                    class="dropdown-item font-width-600 dropdown-item-border"
+                    type="button"
+                  >
+                    Action
+                  </button>
+                  <button
+                    class="dropdown-item font-width-600 dropdown-item-border"
+                    type="button"
+                  >
+                    Another action
+                  </button>
+                  <button class="dropdown-item font-width-600" type="button">
+                    Something else here
+                  </button>
+                </div>
+              </div>
+              <div class="btn-group ml-5">
+                <div class="filter-name">Category:</div>
+                <button
+                  class="btn btn-secondary btn-sm dropdown-toggle font-size-18 header-dropdown"
+                  type="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  All
+                </button>
+                <div class="dropdown-menu dropdown-cus">
+                  <button
+                    class="dropdown-item font-width-600 dropdown-item-border"
+                    type="button"
+                  >
+                    Action
+                  </button>
+                  <button
+                    class="dropdown-item font-width-600 dropdown-item-border"
+                    type="button"
+                  >
+                    Another action
+                  </button>
+                  <button class="dropdown-item font-width-600" type="button">
+                    Something else here
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 mt-3">
+                  <div class="row inventory-list-box">
+                    <div class="col-md-6 d-flex">
+                      <img
+                        src="./images/inventry-1.jpg"
+                        alt=""
+                        class="inventory-image"
+                      />
+                      <div class="">
+                        <ul class="ml-3" style="margin-bottom: 0px !important">
+                          <li
+                            class="font-size-18 font-weight-bold order-status-name"
+                          >
+                            Brand
+                          </li>
+                          <li
+                            class="font-size-24 font-weight-bold order-status-name"
+                          >
+                            Product Title
+                          </li>
+                          <li
+                            class="font-size-18 font-width-600 order-status-name"
+                            style="color: #9ea0a9 !important"
+                          >
+                            Product Category
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <span class="font-weight-bold callend-amount">
+                        ₹&nbsp;1400.
+                        <small>00</small>
+                      </span>
+                      &nbsp;|&nbsp; <span class="font-weight-bold">30mL</span>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <label class="switch">
+                        <input type="checkbox" id="togBtn" />
+                        <div class="slider round">
+                          <!--ADDED HTML --><span class="on">ON</span>
+                          <span class="off">OFF</span>
+                          <!--END-->
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                  <div class="row inventory-list-box">
+                    <div class="col-md-6 d-flex">
+                      <img
+                        src="./images/inventry-1.jpg"
+                        alt=""
+                        class="inventory-image"
+                      />
+                      <div class="">
+                        <ul class="ml-3" style="margin-bottom: 0px !important">
+                          <li
+                            class="font-size-18 font-weight-bold order-status-name"
+                          >
+                            Brand
+                          </li>
+                          <li
+                            class="font-size-24 font-weight-bold order-status-name"
+                          >
+                            Product Title
+                          </li>
+                          <li
+                            class="font-size-18 font-width-600 order-status-name"
+                            style="color: #9ea0a9 !important"
+                          >
+                            Product Category
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <span class="font-weight-bold">2 Serving Options</span>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <label class="switch">
+                        <input type="checkbox" id="togBtn" />
+                        <div class="slider round">
+                          <!--ADDED HTML --><span class="on">ON</span>
+                          <span class="off">OFF</span>
+                          <!--END-->
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 mt-3 sub-list">
+                  <div class="row inventory-list-box">
+                    <div class="col-md-6 d-flex">
+                      <img
+                        src="./images/inventry-1.jpg"
+                        alt=""
+                        class="inventory-image"
+                      />
+                      <div class="">
+                        <ul class="ml-3" style="margin-bottom: 0px !important">
+                          <li
+                            class="font-size-18 font-weight-bold order-status-name"
+                          >
+                            Brand
+                          </li>
+                          <li
+                            class="font-size-24 font-weight-bold order-status-name"
+                          >
+                            Product Title
+                          </li>
+                          <li
+                            class="font-size-18 font-width-600 order-status-name"
+                            style="color: #9ea0a9 !important"
+                          >
+                            Product Category
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <span class="font-weight-bold callend-amount">
+                        ₹&nbsp;300.
+                        <small>00</small>
+                      </span>
+                      &nbsp;|&nbsp; <span class="font-weight-bold">30mL</span>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <label class="switch">
+                        <input type="checkbox" id="togBtn" />
+                        <div class="slider round">
+                          <!--ADDED HTML --><span class="on">ON</span>
+                          <span class="off">OFF</span>
+                          <!--END-->
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-3 sub-list">
+                  <div class="row inventory-list-box">
+                    <div class="col-md-6 d-flex">
+                      <img
+                        src="./images/inventry-1.jpg"
+                        alt=""
+                        class="inventory-image"
+                      />
+                      <div class="">
+                        <ul class="ml-3" style="margin-bottom: 0px !important">
+                          <li
+                            class="font-size-18 font-weight-bold order-status-name"
+                          >
+                            Brand
+                          </li>
+                          <li
+                            class="font-size-24 font-weight-bold order-status-name"
+                          >
+                            Product Title
+                          </li>
+                          <li
+                            class="font-size-18 font-width-600 order-status-name"
+                            style="color: #9ea0a9 !important"
+                          >
+                            Product Category
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <span class="font-weight-bold callend-amount">
+                        ₹&nbsp;600.
+                        <small>00</small>
+                      </span>
+                      &nbsp;|&nbsp; <span class="font-weight-bold">60mL</span>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <label class="switch">
+                        <input type="checkbox" id="togBtn" />
+                        <div class="slider round">
+                          <!--ADDED HTML --><span class="on">ON</span>
+                          <span class="off">OFF</span>
+                          <!--END-->
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                  <div class="row inventory-list-box">
+                    <div class="col-md-6 d-flex">
+                      <img
+                        src="./images/inventry-1.jpg"
+                        alt=""
+                        class="inventory-image"
+                      />
+                      <div class="">
+                        <ul class="ml-3" style="margin-bottom: 0px !important">
+                          <li
+                            class="font-size-18 font-weight-bold order-status-name"
+                          >
+                            Brand
+                          </li>
+                          <li
+                            class="font-size-24 font-weight-bold order-status-name"
+                          >
+                            Product Title
+                          </li>
+                          <li
+                            class="font-size-18 font-width-600 order-status-name"
+                            style="color: #9ea0a9 !important"
+                          >
+                            Product Category
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <span class="font-weight-bold callend-amount">
+                        ₹&nbsp;1400.
+                        <small>00</small>
+                      </span>
+                      &nbsp;|&nbsp; <span class="font-weight-bold">30mL</span>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <label class="switch">
+                        <input type="checkbox" id="togBtn" />
+                        <div class="slider round">
+                          <!--ADDED HTML --><span class="on">ON</span>
+                          <span class="off">OFF</span>
+                          <!--END-->
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                  <div class="row inventory-list-box">
+                    <div class="col-md-6 d-flex">
+                      <img
+                        src="./images/inventry-1.jpg"
+                        alt=""
+                        class="inventory-image"
+                      />
+                      <div class="">
+                        <ul class="ml-3" style="margin-bottom: 0px !important">
+                          <li
+                            class="font-size-18 font-weight-bold order-status-name"
+                          >
+                            Brand
+                          </li>
+                          <li
+                            class="font-size-24 font-weight-bold order-status-name"
+                          >
+                            Product Title
+                          </li>
+                          <li
+                            class="font-size-18 font-width-600 order-status-name"
+                            style="color: #9ea0a9 !important"
+                          >
+                            Product Category
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <span class="font-weight-bold callend-amount">
+                        ₹&nbsp;1400.
+                        <small>00</small>
+                      </span>
+                      &nbsp;|&nbsp; <span class="font-weight-bold">30mL</span>
+                    </div>
+                    <div class="col-md-3 inventory-status">
+                      <label class="switch">
+                        <input type="checkbox" id="togBtn" />
+                        <div class="slider round">
+                          <!--ADDED HTML --><span class="on">ON</span>
+                          <span class="off">OFF</span>
+                          <!--END-->
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

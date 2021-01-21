@@ -1,0 +1,15 @@
+/* team list  */
+.inventory-status {
+  margin: 17px auto !important;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3a3a3a;
+  float: left;
+}
+.team-status-color {
+  color: #6e7fe5;
+}
+.no-order {
+  color: #9ea0a9;
+}
+/* team list  end*/
